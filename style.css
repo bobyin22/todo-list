@@ -1,0 +1,49 @@
+.m-5{
+  
+  outline: black solid;
+  width: 400px;
+  height: 600px;
+  background-color: #EAEAEA;
+  padding: 30px;
+/*   position: absolute; */
+/*   left: 600px;
+  top: 300px; */
+  box-shadow:-20px -20px 0px 0px
+}
+.checked{
+  color: #ccc;
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+.content__wrapper{
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form--custom{
+  width:auto;
+}
+
+.checked {
+  color: #ccc;
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+.fa {
+  margin: 0 5px;
+  color: #bbb;
+}
+
+li>label[for='todo'] {
+  width: 210px;
+  margin-bottom: 0.5rem;
+}
+
+.form--custom:hover {
+  background-color: gold;
+   transform: scale(1.1);
+/*   opacity: 0.3; */
+}
