@@ -21,8 +21,8 @@ function addItem (text) {
 }
 
 
-// write your code here
-// 1. add new todo
+
+// 1. 加入 new todo
 addBtn.addEventListener('click', function() {
   let inputValue = input.value;
   
